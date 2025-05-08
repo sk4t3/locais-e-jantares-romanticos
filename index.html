@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares e jantar romantico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nosso cantinho de lembranças</h1>
+    </header>
+
+    <section id="lugares">
+        <h2>lembranças favoritas</h2>
+
+        <div class="card">
+            <div class="img-wrapper">
+                <img src="fotos/img1.jfif" alt="Imagem de prato 1">
+            </div>
+            <div class="card-content">
+                <h3>Local</h3>
+                <p>Descriçao do dia.</p>
+                <a href="https://www.google.com/maps?q=-23.545518, -46.477024&hl=pt-BR" target="_blank">
+                    <button>Ver Localização no Google Maps</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-wrapper">
+                <img src="fotos/img2.jfif" alt="Imagem de prato 2">
+            </div>
+            <div class="card-content">
+                <h3>Local</h3>
+                <p>Descriçao do dia.</p>
+                <a href="https://www.google.com/maps?q=-23.545017, -46.468516&hl=pt-BR" target="_blank">
+                    <button>Ver Localização no Google Maps</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-wrapper">
+                <img src="fotos/img3.jfif" alt="Imagem de prato 3">
+            </div>
+            <div class="card-content">
+                <h3>Local</h3>
+                <p>Descriçao do dia.</p>
+                <a href="https://www.google.com/maps?q=-23.547309, -46.467389&hl=pt-BR" target="_blank">
+                    <button>Ver Localização no Google Maps</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="planejamento">
+        <h2>Planejamento de Jantar</h2>
+        <p>Selecione um lugar e uma data para planejar o nosso encontro perfeito!</p>
+
+        <input type="text" id="lugar-jantar" placeholder="Digite o lugar do jantar">
+        <br><br>
+        <input type="date" id="data-jantar">
+        <br><br>
+        <button onclick="planejarJantar()">Planejar Jantar</button>
+
+        <ul id="lista-jantares"></ul>
+    </section>
+
+    <section id="fotos">
+        <h2>Foto de comidas ou algo lgl</h2>
+        <div class="fotos-container">
+            <div class="img-wrapper">
+                <img src="fotos/transferir.jfif" alt="Foto de jantar 1">
+            </div>
+            <div class="img-wrapper">
+                <img src="fotos/imagem4.jfif" alt="Foto de jantar 2">
+            </div>
+            <div class="img-wrapper">
+                <img src="fotos/imagem5.jfif" alt="Foto de jantar 3">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <p>feito com muito carinho</p>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
